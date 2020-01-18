@@ -50,7 +50,7 @@ font-family: 'Poppins', sans-serif; */
     padding: 1rem 2rem;
 }
 
-.fa-globe-americas {
+.top-i {
     position: absolute;
     opacity: .2;
     font-size: 280px;
@@ -88,4 +88,31 @@ img {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: .1rem;
+}
+.right p {
+    line-height: 1.2rem
+}
+.shipping {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.shipping p {
+    line-height: .5rem;
+    font-size: 13px;
+}
+span {
+    font-size: 18px;
+    color: rgb(0, 102, 255);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #525252;
+    margin-top: 4.7rem
+}
+.footer .footer-i {
+    font-size: 30px;
+}
+.footer-text {
+    font-size: 10px;
 }
