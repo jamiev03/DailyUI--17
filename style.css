@@ -7,3 +7,22 @@ body {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     box-sizing: border-box;
 }
+.container {
+    margin: 150px auto;
+    width: 800px;
+    height: 500px;
+    background: #ffffff;
+    -webkit-box-shadow: 10px 10px 47px -7px rgba(0,0,0,0.41);
+    -moz-box-shadow: 10px 10px 47px -7px rgba(0,0,0,0.41);
+    box-shadow: 10px 10px 47px -7px rgba(0,0,0,0.41);
+    display: flex;
+    border-radius: 20px;
+}
+.left {
+    background: #fcb045;
+    flex: 2;
+}
+.right {
+    background: white;
+    flex: 3;
+}
